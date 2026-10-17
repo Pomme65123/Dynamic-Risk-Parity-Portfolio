@@ -27,7 +27,6 @@ def main():
     tickers = ['SPY', 'TLT', 'GLD', 'USO', 'VNQ']
     prices_df = yf.download(tickers, start='2020-01-01', end='2026-10-14')['Close']
     
-    print("Training ML Models")
     all_predictions = {}
     
     tscv = TimeSeriesSplit(n_splits=6, test_size=60)

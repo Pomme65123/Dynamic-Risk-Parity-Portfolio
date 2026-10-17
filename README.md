@@ -20,4 +20,4 @@ $$R_{p, t} = \sum_{i=1}^{N} w_{i, t-1} R_{i, t}$$
 The strategy's performance is evaluated using the Sharpe Ratio. Assuming a risk-free rate of 0, the daily mean return ($\mu_{daily}$) divided by the daily return standard deviation ($\sigma_{daily}$) is annualized using 252 trading days:
 $$Sharpe = \frac{\mu_{daily}}{\sigma_{daily}} \times \sqrt{252}$$
 
-Cumulative returns are calculated over time using $\prod (1 + R_{p, t})$.# ML-Portfolio
+Cumulative returns are calculated over time using $\prod (1 + R_{p, t})$.
